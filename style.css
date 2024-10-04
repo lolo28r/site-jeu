@@ -1,0 +1,89 @@
+
+nav {
+    background-color: #fefeff; 
+    padding: 25px; 
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+nav ul {
+    list-style-type: none; 
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center; 
+}
+
+nav ul li {
+    margin: 0 10px; 
+}
+
+nav a {
+    color: #213f77; 
+    text-decoration: none; 
+    padding: 8px 15px; 
+    font-size: 16px; 
+    font-weight: 700;
+    transition: background-color 0.3s ease, color 0.3s ease; 
+}
+
+nav a:hover {
+    background-color: #FF7a00;
+    color: #ffffff; 
+    border-radius: 20px; }
+
+
+  /* Styles pour l'en-tête de section */
+.en-tete {
+   margin-top: 10px;
+    background-color: #213f77; /* Couleur orange */
+    border-radius: 50px; /* Bords arrondis */
+    width: 500px;
+    padding: 2px; /* Espacement interne */
+    text-align: center; /* Centrer le texte */
+    margin-bottom: 20px; /* Espace sous l'en-tête */
+    text-align: center; /* Centrer le texte */
+    margin-left: auto; /* Centre horizontalement */
+    margin-right: auto; /* Centre horizontalement */
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff; 
+    font-size: 12px;
+}
+
+
+/* Styles pour la liste de jeux */
+.liste-jeux {
+    display: flex;
+    flex-wrap: wrap; /* Permet d'avoir plusieurs lignes */
+    justify-content: space-between; /* Égalise l'espace entre les éléments */
+}
+
+/* Styles pour chaque jeu */
+.jeu-item {
+    border: 1px solid #ccc; /* Bordure autour de chaque jeu */
+    border-radius: 5px; /* Bords arrondis */
+    padding: 10px; /* Espacement interne */
+    margin: 10px; /* Espacement externe */
+    width: calc(48% - 20px); /* Deux colonnes avec espace entre */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Ombre douce */
+    text-align: center; /* Centrer le texte */
+}
+
+.image-jeu {
+    max-width: 100%; /* Assure que l'image ne déborde pas */
+    height: auto; /* Garde les proportions de l'image */
+}
+
+/* Styles pour le bouton d'achat */
+.bouton-acheter {
+    background-color: #ff7f00; /* Couleur orange */
+    color: white; /* Couleur du texte */
+    border: none; /* Pas de bordure */
+    padding: 10px; /* Espacement interne */
+    cursor: pointer; /* Curseur de main */
+    border-radius: 5px; /* Bords arrondis */
+}
+
+.bouton-acheter:hover {
+    background-color: #e66a00; /* Couleur orange plus foncé au survol */
+}
