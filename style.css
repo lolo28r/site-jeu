@@ -25,6 +25,8 @@ nav a {
     font-size: 16px; 
     font-weight: 700;
     transition: background-color 0.3s ease, color 0.3s ease; 
+    border-radius: 20px;
+
 }
 
 nav a:hover {
@@ -35,10 +37,10 @@ nav a:hover {
 
   /* Styles pour l'en-tête de section */
 .en-tete {
-   margin-top: 10px;
+   margin-top: 50px;
     background-color: #213f77; /* Couleur orange */
     border-radius: 50px; /* Bords arrondis */
-    width: 500px;
+    width: 800px;
     padding: 2px; /* Espacement interne */
     text-align: center; /* Centrer le texte */
     margin-bottom: 20px; /* Espace sous l'en-tête */
@@ -51,6 +53,24 @@ nav a:hover {
 }
 
 
+/* banniere */
+
+.banniere {
+    background-image: url(1111446.jpg);
+    height: 460px;
+    background-size: cover;
+    justify-content: center;
+    display: flex;
+    text-align: center;
+align-items: center;
+height: 625px; 
+background-attachment: fixed;}
+
+
+
+
+
+
 /* Styles pour la liste de jeux */
 .liste-jeux {
     display: flex;
@@ -58,14 +78,18 @@ nav a:hover {
     justify-content: space-between; /* Égalise l'espace entre les éléments */
 }
 
+.titre-section-jeuxs {
+
+    text-align: center;
+
+}
+
 /* Styles pour chaque jeu */
 .jeu-item {
-    border: 1px solid #ccc; /* Bordure autour de chaque jeu */
     border-radius: 5px; /* Bords arrondis */
     padding: 10px; /* Espacement interne */
     margin: 10px; /* Espacement externe */
     width: calc(48% - 20px); /* Deux colonnes avec espace entre */
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Ombre douce */
     text-align: center; /* Centrer le texte */
 }
 
@@ -81,9 +105,45 @@ nav a:hover {
     border: none; /* Pas de bordure */
     padding: 10px; /* Espacement interne */
     cursor: pointer; /* Curseur de main */
-    border-radius: 5px; /* Bords arrondis */
+    border-radius: 15px; /* Bords arrondis */
 }
 
 .bouton-acheter:hover {
     background-color: #e66a00; /* Couleur orange plus foncé au survol */
+}
+
+.titre-bann {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-weight:bold ;
+    font-size: 35px;
+}
+
+.bouton-bann {
+    background-color: #ff7f00; /* Couleur orange */
+    color: white; /* Couleur du texte */
+    border: none; /* Pas de bordure */
+    padding: 10px; /* Espacement interne */
+    cursor: pointer; /* Curseur de main */
+    border-radius: 10px; /* Bords arrondis */
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+font-size: 20px;
+width: 150px;
+}
+
+.bouton-acheter:hover {
+    background-color: #e66a00; /* Couleur orange plus foncé au survol */
+}  
+
+.jeu-item {
+
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+}
+
+.image-jeu {
+
+    height: 300px;
+
 }
