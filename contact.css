@@ -1,0 +1,177 @@
+/* Style général du corps */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    min-height: 100vh; /* S'assure que le body prend toute la hauteur */
+    display: flex;
+    flex-direction: column; /* Structure la page verticalement */
+}
+
+/* Style de la barre de navigation */
+.navbar {
+    background-color: #fefeff; 
+    padding: 15px 25px; /* Espacement autour de la barre */
+    font-family: 'Montserrat', sans-serif;
+    display: flex; /* Utilise Flexbox pour l'alignement */
+    align-items: center; /* Aligne verticalement */
+    justify-content: space-between; /* Espace entre le logo et les liens */
+}
+
+/* Style pour le logo */
+.navbar .logo img {
+    max-height: 60px; /* Ajustez cette valeur pour rendre le logo visible */
+    height: auto; /* Garde le ratio de l'image */
+    width: auto; /* Garde le ratio de l'image */
+    margin-right: 15px; /* Espacement entre le logo et les liens */
+}
+
+/* Style pour centrer les liens */
+.nav-links {
+    flex-grow: 1; /* Permet aux liens de prendre l'espace disponible */
+    display: flex; /* Utilise Flexbox pour l'alignement */
+    justify-content: center; /* Centre les éléments horizontalement */
+}
+
+/* Style de la liste */
+.nav-links ul {
+    list-style-type: none; 
+    margin: 0;
+    padding: 0;
+    display: flex; /* Utilise Flexbox pour aligner horizontalement */
+}
+
+/* Style des éléments de la liste */
+.nav-links ul li {
+    margin: 0 10px; /* Espacement entre les éléments */
+}
+
+/* Style des liens */
+nav a {
+    color: #213f77; 
+    text-decoration: none; 
+    padding: 8px 15px; 
+    font-size: 16px; 
+    font-weight: 700;
+    transition: background-color 0.3s ease, color 0.3s ease; 
+    border-radius: 20px; /* Coins arrondis */
+}
+
+nav a:hover {
+    background-color: #FF7a00; /* Couleur au survol */
+    color: #ffffff; 
+    border-radius: 20px; 
+}
+
+.de-image {
+    width: 199px; /* Ajustez la taille selon vos besoins */
+    height: auto; /* Garde les proportions de l'image */
+    align-items: center;
+}
+
+
+/* Style de la bannière */
+.banniere {
+    background-color: #213f77; /* Remplacez avec votre propre image */
+    height: 460px; /* Ajustez la hauteur si nécessaire */
+    background-size: cover; /* L'image couvre toute la bannière */
+    background-position: center; /* Positionner l'image au centre */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+
+/* Titre à l'intérieur de la bannière */
+.banniere h2 {
+    color: white; /* Couleur du texte */
+    font-size: 36px; /* Taille du texte */
+    font-family: 'Montserrat', sans-serif; /* Police du texte */
+}
+
+/* Style de la bannière */
+.banniere {
+    background-color: #213f77; /* Couleur de fond */
+    height: 460px; /* Ajustez la hauteur si nécessaire */
+    background-size: cover; /* L'image couvre toute la bannière */
+    background-position: center; /* Positionner l'image au centre */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    padding: 20px; /* Ajoutez du padding pour éviter que le texte touche les bords */
+}
+
+/* Contenu à l'intérieur de la bannière */
+.banniere-contenu {
+    max-width: 800px; /* Limite la largeur du contenu pour le rendre plus lisible */
+}
+
+/* Titre à l'intérieur de la bannière */
+.banniere-contenu h2 {
+    font-size: 36px; /* Taille du texte */
+    font-family: 'Montserrat', sans-serif; /* Police du texte */
+    margin-bottom: 10px; /* Espacement sous le titre */
+}
+
+/* Style des paragraphes dans la bannière */
+.banniere-contenu p {
+    font-size: 18px; /* Taille du texte pour les paragraphes */
+    line-height: 1.5; /* Hauteur de ligne pour plus de lisibilité */
+}
+
+
+/* Style de la section principale */
+main {
+    flex: 1; /* Permet au main de s'étendre pour occuper l'espace restant */
+    padding: 40px 20px; /* Ajoute de l'espace autour du contenu principal */
+    text-align: center; /* Centre le texte */
+}
+
+/* Style du formulaire */
+form {
+    display: inline-block; /* Formulaire centré */
+    text-align: left; /* Texte aligné à gauche dans le formulaire */
+    max-width: 400px; /* Limite la largeur du formulaire */
+    margin-top: 20px; /* Espacement supplémentaire au-dessus */
+}
+
+/* Style des labels */
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+/* Style des champs de saisie */
+input[type="text"], input[type="email"] {
+    width: 100%; /* Champs de saisie prennent toute la largeur */
+    padding: 10px; /* Espacement à l'intérieur des champs */
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+/* Style du bouton de soumission */
+button {
+    background-color: #213f77; /* Couleur de fond du bouton */
+    color: white; /* Couleur du texte du bouton */
+    padding: 10px 15px; /* Espacement interne du bouton */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer; /* Changer le curseur au survol */
+}
+
+button:hover {
+    background-color: #1a3161; /* Changement de couleur au survol */
+}
+
+/* Style du footer */
+footer {
+    background-color: #213f77; /* Couleur de fond du footer */
+    color: white; /* Couleur du texte du footer */
+    text-align: center; /* Centrer le texte */
+    padding: 10px; /* Espacement interne du footer */
+    width: 100%; /* S'assurer que le footer prend toute la largeur */
+}
