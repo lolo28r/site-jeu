@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" type="text/css" href="contact.css">
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="logo">
+            <img src="LOGO_WEB.png" alt="Logo" />
+        </div>
+        <div class="nav-links">
+            <ul>
+                <li><a href="accueil.html">Accueil</a></li>
+                <li><a href="index.html">Boutique</a></li>
+                <li><a href="en_savoir_plus.html">En savoir plus</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    
+    
+
+     <!-- Section de la bannière d'image -->
+     <!--<div class="banniere">
+       <p> Pour toutes question ou demande d’information,<br> n’hésitez pas à nous contacter via notre formulaire de contact ou par telephone. <br>Notre équipe est à votre disposition pour vous aider.</p>
+    </div>-->
+
+    <div class="banniere">
+        <div class="banniere-contenu">
+            <h2>Votre satisfaction, notre priorité !</h2>
+            <p>Notre équipe est prête à répondre à toutes vos questions. N’hésitez pas à nous contacter !</p>
+            <p>Complétez notre formulaire et nous vous répondrons dans les plus brefs délais.</p>
+        </div>
+        <img src="img_dee.png" alt="Dé" class="de-image">
+    </div>
+    
+
+
+    <!-- Contenu principal de la page -->
+
+    <main>
+        <h1>Contactez-nous</h1>
+        <form method="post" action="fichier.php">
+            <label for="nom">Nom</label>
+            <input type="text" name="nom" id="nom" placeholder="Votre nom" /> 
+            <br/><br/>
+
+            <label for="prenom">Prénom</label>
+            <input type="text" name="prenom" id="prenom" placeholder="Votre prénom" />
+            <br/><br/>
+
+            <label for="mail">Adresse mail</label>
+            <input type="email" name="email" id="email" placeholder="Votre email" />
+            <br/><br/>
+
+            <button type="submit">Envoyer</button>
+        </form>
+    </main>
+
+    <!-- Footer simple -->
+    <footer>
+        <p>© 2024 Mon Site Simple - Tous droits réservés.</p>
+    </footer>
+
+</body>
+</html>
