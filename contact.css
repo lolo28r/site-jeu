@@ -48,14 +48,17 @@ body, html {
     padding: 8px 15px;
     font-size: 16px;
     font-weight: 700;
-    border-radius: 20px;
-    transition: background-color 0.3s ease, color 0.3s ease;
+    border-radius: 50px; /* Ajout de coins arrondis */
+    transition: background-color 0.3s ease, color 0.3s ease, border-radius 0.3s ease;
 }
 
-nav a:hover {
-    background-color: #FF7a00;
-    color: #ffffff; 
-    border-radius: 20px; }
+/* Effet au survol (hover) des liens */
+.nav-links ul li a:hover {
+    background-color: #FF7a00; /* Fond orange */
+    color: #ffffff; /* Texte blanc */
+    border-radius: 50px; /* Coins arrondis accentués */
+    padding: 10px 20px; /* Légèrement plus d'espace pour l'effet */
+}
 
 /* Style de l'image */
 .de-image {
