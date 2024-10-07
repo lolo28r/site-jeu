@@ -136,7 +136,6 @@ form {
     text-align: left; /* Texte aligné à gauche dans le formulaire */
     max-width: 400px; /* Limite la largeur du formulaire */
     margin-top: 20px; /* Espacement supplémentaire au-dessus */
-    border: 1px solid #ccc; /* Ajoute une bordure au formulaire (optionnel) */
 }
 
 
