@@ -52,11 +52,10 @@ body, html {
     transition: background-color 0.3s ease, color 0.3s ease;
 }
 
-/* Effet au survol (hover) des liens */
-.nav-links ul li a:hover {
-    background-color: #FF7a00; 
-    color: #ffffff;
-}
+nav a:hover {
+    background-color: #FF7a00;
+    color: #ffffff; 
+    border-radius: 20px; }
 
 /* Style de l'image */
 .de-image {
