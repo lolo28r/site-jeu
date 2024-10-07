@@ -10,24 +10,21 @@ body, html {
 /* Style de la barre de navigation */
 .navbar {
     background-color: #fefeff; 
-    padding: 15px 25px;
-    display: flex; /* Utilise Flexbox pour l'alignement */
+    padding: 15px 25px; /* Espacement autour de la barre */
+    display: flex; /* Utilisation de Flexbox pour l'alignement */
     align-items: center; /* Aligne verticalement au centre */
-    justify-content: space-between; /* Espace entre le logo et les liens */
+    position: relative; /* Positionnement pour gérer l'alignement centré */
 }
 
-/* Style pour le logo */
-.logo img {
-    max-height: 60px; /* Ajustez cette valeur pour la taille du logo */
-    height: auto;
-    width: auto;
+/* Style du logo à gauche */
+.logo {
+    position: absolute; /* Place le logo en position absolue */
+    left: 25px; /* Positionnement du logo à gauche */
 }
 
 /* Style pour centrer les liens */
 .nav-links {
-    display: flex; /* Flexbox pour les liens */
-    justify-content: center; /* Centre les éléments */
-    align-items: center; /* Aligne verticalement au centre */
+    margin: 0 auto; /* Centrer le conteneur des liens horizontalement */
 }
 
 /* Style de la liste des liens */
@@ -35,11 +32,12 @@ body, html {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    display: flex; /* Aligne horizontalement */
+    display: flex; /* Aligne les liens horizontalement */
 }
 
+/* Espacement entre les éléments de la liste */
 .nav-links ul li {
-    margin: 0 15px; /* Espace horizontal entre les liens */
+    margin: 0 15px; /* Espace horizontal entre chaque lien */
 }
 
 /* Style des liens */
@@ -53,7 +51,7 @@ body, html {
     transition: background-color 0.3s ease, color 0.3s ease;
 }
 
-/* Changement de couleur au survol */
+/* Style au survol */
 .nav-links a:hover {
     background-color: #FF7a00; 
     color: #ffffff;
