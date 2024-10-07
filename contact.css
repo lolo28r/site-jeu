@@ -151,7 +151,7 @@ input[type="text"], input[type="email"] {
     padding: 10px; /* Espacement à l'intérieur des champs */
     margin-bottom: 10px;
     border: 1px solid #ddd;
-    border-radius: 5px;
+    border-radius: 35px;
 }
 
 /* Style du bouton de soumission */
