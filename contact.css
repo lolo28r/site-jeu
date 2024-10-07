@@ -137,8 +137,6 @@ form {
     max-width: 400px; /* Limite la largeur du formulaire */
     margin-top: 20px; /* Espacement supplémentaire au-dessus */
     border: 1px solid #ccc; /* Ajoute une bordure au formulaire (optionnel) */
-    border-radius: 24px; /* Arrondi des bords */
-    padding: 20px; /* Ajoute de l'espace intérieur (optionnel) */
 }
 
 
