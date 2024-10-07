@@ -8,57 +8,41 @@ body, html {
     flex-direction: column;
 }
 
-/* Style de la barre de navigation */
-.navbar {
+nav {
     background-color: #fefeff; 
-    padding: 15px 25px;
-    display: flex;
-    align-items: center;
-    position: relative;
+    padding: 25px; 
+    font-family: 'Montserrat', sans-serif;
+    
 }
 
-/* Style du logo à gauche */
-.logo {
-    position: absolute;
-    left: 25px;
-}
-
-/* Style pour centrer les liens de navigation */
-.nav-links {
-    margin: 0 auto;
-}
-
-/* Style de la liste de navigation */
-.nav-links ul {
-    list-style-type: none;
+nav ul {
+    list-style-type: none; 
     margin: 0;
     padding: 0;
-    display: flex; /* Aligne les liens horizontalement */
+    display: flex;
+    justify-content: center; 
 }
 
-/* Style des éléments de la liste */
-.nav-links ul li {
-    margin: 0 15px; /* Espace horizontal entre chaque lien */
+nav ul li {
+    margin: 0 10px; 
 }
 
-/* Style des liens dans la navigation */
-.nav-links ul li a {
+nav a {
     color: #213f77; 
-    text-decoration: none;
-    padding: 8px 15px;
-    font-size: 16px;
+    text-decoration: none; 
+    padding: 8px 15px; 
+    font-size: 16px; 
     font-weight: 700;
-    border-radius: 50px; /* Ajout de coins arrondis */
-    transition: background-color 0.3s ease, color 0.3s ease, border-radius 0.3s ease;
+    transition: background-color 0.3s ease, color 0.3s ease; 
+    border-radius: 20px;
+
 }
 
-/* Effet au survol (hover) des liens */
-.nav-links ul li a:hover {
-    background-color: #FF7a00; /* Fond orange */
-    color: #ffffff; /* Texte blanc */
-    border-radius: 50px; /* Coins arrondis accentués */
-    padding: 10px 20px; /* Légèrement plus d'espace pour l'effet */
-}
+nav a:hover {
+    background-color: #FF7a00;
+    color: #ffffff; 
+    border-radius: 20px; }
+
 
 /* Style de l'image */
 .de-image {
