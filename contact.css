@@ -138,18 +138,23 @@ form {
     margin-top: 20px; /* Espacement supplémentaire au-dessus */
 }
 
+/* Style des groupes de champs */
+.form-group {
+    display: flex; /* Utilisation de flexbox pour les champs */
+    align-items: center; /* Aligne les éléments verticalement au centre */
+    margin-bottom: 10px; /* Espacement entre les groupes */
+}
 
 /* Style des labels */
 label {
-    display: block;
-    margin-bottom: 5px;
+    flex: 0 0 100px; /* Largeur fixe pour le label */
+    margin-right: 10px; /* Espacement entre le label et le champ */
 }
 
 /* Style des champs de saisie */
 input[type="text"], input[type="email"] {
-    width: 100%; /* Champs de saisie prennent toute la largeur */
+    flex: 1; /* Prend le reste de l'espace disponible */
     padding: 10px; /* Espacement à l'intérieur des champs */
-    margin-bottom: 10px;
     border: 1px solid #ddd;
     border-radius: 35px;
 }
