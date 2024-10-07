@@ -3,31 +3,32 @@ body, html {
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
-    min-height: 100vh; /* S'assure que le body prend toute la hauteur */
+    min-height: 100vh;
     display: flex;
-    flex-direction: column; /* Structure la page verticalement */
+    flex-direction: column;
 }
+
 /* Style de la barre de navigation */
 .navbar {
     background-color: #fefeff; 
-    padding: 15px 25px; /* Espacement autour de la barre */
-    display: flex; /* Utilisation de Flexbox pour l'alignement */
-    align-items: center; /* Aligne verticalement au centre */
-    position: relative; /* Positionnement pour gérer l'alignement centré */
+    padding: 15px 25px;
+    display: flex;
+    align-items: center;
+    position: relative;
 }
 
 /* Style du logo à gauche */
 .logo {
-    position: absolute; /* Place le logo en position absolue */
-    left: 25px; /* Positionnement du logo à gauche */
+    position: absolute;
+    left: 25px;
 }
 
-/* Style pour centrer les liens */
+/* Style pour centrer les liens de navigation */
 .nav-links {
-    margin: 0 auto; /* Centrer le conteneur des liens horizontalement */
+    margin: 0 auto;
 }
 
-/* Style de la liste des liens */
+/* Style de la liste de navigation */
 .nav-links ul {
     list-style-type: none;
     margin: 0;
@@ -35,178 +36,137 @@ body, html {
     display: flex; /* Aligne les liens horizontalement */
 }
 
-/* Espacement entre les éléments de la liste */
+/* Style des éléments de la liste */
 .nav-links ul li {
     margin: 0 15px; /* Espace horizontal entre chaque lien */
 }
 
-/* Style des liens */
-.nav-links a {
+/* Style des liens dans la navigation */
+.nav-links ul li a {
     color: #213f77; 
     text-decoration: none;
     padding: 8px 15px;
     font-size: 16px;
     font-weight: 700;
-    border-radius: 20px; /* Coins arrondis */
+    border-radius: 20px;
     transition: background-color 0.3s ease, color 0.3s ease;
 }
 
-/* Style au survol */
-.nav-links a:hover {
+/* Effet au survol (hover) des liens */
+.nav-links ul li a:hover {
     background-color: #FF7a00; 
     color: #ffffff;
 }
 
-
+/* Style de l'image */
 .de-image {
-    width: 199px; /* Ajustez la taille selon vos besoins */
-    height: auto; /* Garde les proportions de l'image */
+    width: 199px;
+    height: auto;
     align-items: center;
 }
 
-
 /* Style de la bannière */
 .banniere {
-    background-color: #213f77; /* Remplacez avec votre propre image */
-    height: 460px; /* Ajustez la hauteur si nécessaire */
-    background-size: cover; /* L'image couvre toute la bannière */
-    background-position: center; /* Positionner l'image au centre */
+    background-color: #213f77;
+    height: 460px;
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
     color: white;
+    padding: 20px;
 }
 
-/* Titre à l'intérieur de la bannière */
-.banniere h2 {
-    color: white; /* Couleur du texte */
-    font-size: 36px; /* Taille du texte */
-    font-family: 'Montserrat', sans-serif; /* Police du texte */
-}
-
-/* Style de la bannière */
-.banniere {
-    background-color: #213f77; /* Couleur de fond */
-    height: 460px; /* Ajustez la hauteur si nécessaire */
-    background-size: cover; /* L'image couvre toute la bannière */
-    background-position: center; /* Positionner l'image au centre */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    color: white;
-    padding: 20px; /* Ajoutez du padding pour éviter que le texte touche les bords */
-}
-
-/* Contenu à l'intérieur de la bannière */
+/* Contenu de la bannière */
 .banniere-contenu {
-    max-width: 800px; /* Limite la largeur du contenu pour le rendre plus lisible */
+    max-width: 800px;
 }
 
-/* Titre à l'intérieur de la bannière */
+/* Titre de la bannière */
 .banniere-contenu h2 {
-    font-size: 36px; /* Taille du texte */
-    font-family: 'Montserrat', sans-serif; /* Police du texte */
-    margin-bottom: 10px; /* Espacement sous le titre */
+    font-size: 36px;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 10px;
 }
 
 /* Style des paragraphes dans la bannière */
 .banniere-contenu p {
-    font-size: 18px; /* Taille du texte pour les paragraphes */
-    line-height: 1.5; /* Hauteur de ligne pour plus de lisibilité */
+    font-size: 18px;
+    line-height: 1.5;
 }
-
 
 /* Style de la section principale */
 main {
-    flex: 1; /* Permet au main de s'étendre pour occuper l'espace restant */
-    padding: 40px 20px; /* Ajoute de l'espace autour du contenu principal */
-    text-align: center; /* Centre le texte */
+    flex: 1;
+    padding: 40px 20px;
+    text-align: center;
 }
 
 /* Style du formulaire */
 form {
-    display: flex; /* Utilisation de flexbox pour l'alignement */
-    flex-direction: column; /* Organise le formulaire en colonne */
-    align-items: center; /* Centre le formulaire horizontalement */
-    max-width: 600px; /* Limite la largeur du formulaire */
-    margin: 20px auto; /* Centre le formulaire sur la page */
-    padding: 20px; /* Ajout de padding autour du formulaire */
-    border: 1px solid #ddd; /* Bordure autour du formulaire */
-    border-radius: 10px; /* Coins arrondis du formulaire */
-    background-color: #f9f9f9; /* Couleur de fond douce pour le formulaire */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background-color: #f9f9f9;
 }
 
 /* Style des groupes de champs */
 .form-group {
-    display: flex; /* Utilisation de flexbox pour les champs */
-    align-items: center; /* Aligne les éléments verticalement au centre */
-    margin-bottom: 15px; /* Espacement entre les groupes */
-    width: 100%; /* Assure que chaque groupe prend toute la largeur */
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    width: 100%;
 }
 
 /* Style des labels */
 label {
-    flex: 0 0 100px; /* Largeur fixe pour le label */
-    margin-right: 10px; /* Espacement entre le label et le champ */
-    font-weight: bold; /* Met le texte en gras */
-    color: #333; /* Couleur du texte du label */
+    flex: 0 0 100px;
+    margin-right: 10px;
+    font-weight: bold;
+    color: #333;
 }
 
 /* Style des champs de saisie */
 input[type="text"], input[type="email"] {
-    flex: 1; /* Prend le reste de l'espace disponible */
-    padding: 10px; /* Espacement à l'intérieur des champs */
-    border: 1px solid #ddd; /* Bordure autour des champs */
-    border-radius: 35px; /* Coins arrondis */
-    font-size: 14px; /* Taille de la police */
-    transition: border-color 0.3s; /* Transition pour la couleur de bordure */
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 35px;
+    font-size: 14px;
+    transition: border-color 0.3s;
 }
 
-/* Changement de style au focus sur les champs */
 input[type="text"]:focus, input[type="email"]:focus {
-    border-color: #213f77; /* Change la couleur de la bordure au focus */
-    outline: none; /* Enlève le contour par défaut */
+    border-color: #213f77;
+    outline: none;
 }
 
 /* Style du bouton de soumission */
 input[type="submit"] {
-    background-color: #213f77; /* Couleur de fond du bouton */
-    color: white; /* Couleur du texte du bouton */
-    padding: 10px 15px; /* Espacement interne du bouton */
-    border: none; /* Enlève la bordure par défaut */
-    border-radius: 5px; /* Coins arrondis */
-    cursor: pointer; /* Changer le curseur au survol */
-    font-weight: bold; /* Texte en gras */
-    transition: background-color 0.3s; /* Transition pour le changement de couleur */
+    background-color: #213f77;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s;
 }
 
 input[type="submit"]:hover {
-    background-color: #1a3161; /* Changement de couleur au survol */
-}
-
-
-
-/* Style du bouton de soumission */
-button {
-    background-color: #213f77; /* Couleur de fond du bouton */
-    color: white; /* Couleur du texte du bouton */
-    padding: 10px 15px; /* Espacement interne du bouton */
-    border: none;
-    border-radius: 5px;
-    cursor: pointer; /* Changer le curseur au survol */
-}
-
-button:hover {
-    background-color: #1a3161; /* Changement de couleur au survol */
+    background-color: #1a3161;
 }
 
 /* Style du footer */
 footer {
-    background-color: #213f77; /* Couleur de fond du footer */
-    color: white; /* Couleur du texte du footer */
-    text-align: center; /* Centrer le texte */
-    padding: 10px; /* Espacement interne du footer */
-    width: 100%; /* S'assurer que le footer prend toute la largeur */
+    background-color: #213f77;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    width: 100%;
 }
