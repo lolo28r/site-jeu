@@ -118,13 +118,6 @@ form {
     width: 100%;
 }
 
-/* Style des groupes de champs */
-.email-group {
-    display: flex;
-    align-items: center;
-    margin-bottom: 15px;
-    width: 67%;
-}
 
 /* Style des labels */
 label {
