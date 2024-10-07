@@ -118,6 +118,14 @@ form {
     width: 100%;
 }
 
+/* Style des groupes de champs */
+.email-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    width: 100%;
+}
+
 /* Style des labels */
 label {
     flex: 0 0 100px;
