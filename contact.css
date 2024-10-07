@@ -134,7 +134,7 @@ main {
 form {
     display: inline-block; /* Formulaire centré */
     text-align: left; /* Texte aligné à gauche dans le formulaire */
-    max-width: 400px; /* Limite la largeur du formulaire */
+    max-width: 600px; /* Limite la largeur du formulaire */
     margin-top: 20px; /* Espacement supplémentaire au-dessus */
 }
 
@@ -158,6 +158,7 @@ input[type="text"], input[type="email"] {
     border: 1px solid #ddd;
     border-radius: 35px;
 }
+
 
 /* Style du bouton de soumission */
 button {
