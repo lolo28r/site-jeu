@@ -10,7 +10,7 @@ body, html {
 
 /* Style pour le logo */
 .navbar .logo img {
-    max-height: 9px; /* Ajustez cette valeur pour rendre le logo visible */
+    max-height: 60px; /* Ajustez cette valeur pour rendre le logo visible */
     height: 140px; /* Garde le ratio de l'image */
     width: auto; /* Garde le ratio de l'image */
     margin-right: 15px; /* Espacement entre le logo et les liens */
