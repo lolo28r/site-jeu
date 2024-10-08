@@ -163,10 +163,11 @@ button:hover {
 .team {
     text-align: center;
     margin-top: 140px;
+    margin-bottom: 140px;
 }
 
 .team h2 {
-    margin-bottom: 120px;
+    margin-bottom: 20px;
 }
 
 .team-members {
