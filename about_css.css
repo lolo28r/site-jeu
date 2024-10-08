@@ -159,6 +159,40 @@ button:hover {
     background-color: #1a3161; /* Changement de couleur au survol */
 }
 
+/* Section Équipe */
+.team {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.team h2 {
+    margin-bottom: 20px;
+}
+
+.team-members {
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* Espacement entre les cercles */
+}
+
+.circle {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background: #3498db;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-size: 18px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+}
+
+.circle:hover {
+    transform: scale(1.1); /* Agrandissement lors du survol */
+}
+
 /* Style du footer */
 footer {
     background-color: #213f77; /* Couleur de fond du footer */
