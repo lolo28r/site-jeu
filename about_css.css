@@ -228,7 +228,7 @@ button:hover {
 /* Style de la section des avis clients */
 .reviews {
     padding: 40px 20px; /* Espacement autour de la section */
-    background-color: #f4f4f9; /* Couleur de fond */
+    background-color: #FF7a00; /* Couleur de fond */
     text-align: center; /* Centre le texte */
 }
 
@@ -247,7 +247,7 @@ button:hover {
 
 /* Style pour chaque rectangle d'avis */
 .review-box {
-    background-color: white; /* Couleur de fond du rectangle */
+    background-color: #FF7a00; /* Couleur de fond du rectangle */
     border-radius: 10px; /* Coins arrondis */
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Ombre pour le rectangle */
     padding: 20px; /* Espacement interne */
