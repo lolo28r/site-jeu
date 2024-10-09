@@ -95,7 +95,7 @@ background-attachment: fixed;}
 
 .image-jeu {
     max-width: 100%; /* Assure que l'image ne déborde pas */
-    height: auto; /* Garde les proportions de l'image */
+    height: 100%; /* Garde les proportions de l'image */
 }
 
 /* Styles pour le bouton d'achat */
