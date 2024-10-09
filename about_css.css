@@ -225,6 +225,53 @@ button:hover {
     transform: scale(1.1); /* Agrandissement lors du survol */
 }
 
+/* Style de la section des avis clients */
+.reviews {
+    padding: 40px 20px; /* Espacement autour de la section */
+    background-color: #f4f4f9; /* Couleur de fond */
+    text-align: center; /* Centre le texte */
+}
+
+/* Titre des avis */
+.reviews h2 {
+    font-size: 28px; /* Taille du texte */
+    margin-bottom: 20px; /* Espacement sous le titre */
+}
+
+/* Conteneur des rectangles d'avis */
+.review-container {
+    display: flex; /* Utilise Flexbox pour l'alignement horizontal */
+    justify-content: space-between; /* Espace entre les rectangles */
+    flex-wrap: wrap; /* Permet d'adapter les rectangles à la taille de l'écran */
+}
+
+/* Style pour chaque rectangle d'avis */
+.review-box {
+    background-color: white; /* Couleur de fond du rectangle */
+    border-radius: 10px; /* Coins arrondis */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Ombre pour le rectangle */
+    padding: 20px; /* Espacement interne */
+    margin: 10px; /* Espacement externe */
+    flex: 1; /* Permet aux rectangles de prendre la même largeur */
+    min-width: 250px; /* Largeur minimale pour le rectangle */
+    max-width: 300px; /* Largeur maximale pour le rectangle */
+}
+
+/* Image à l'intérieur des rectangles */
+.review-image {
+    width: 60px; /* Taille de l'image */
+    height: auto; /* Garde les proportions de l'image */
+    margin-bottom: 10px; /* Espacement sous l'image */
+}
+
+/* Style pour le texte des avis */
+.review-box p {
+    font-size: 16px; /* Taille du texte */
+    line-height: 1.4; /* Hauteur de ligne pour une meilleure lisibilité */
+    color: #333; /* Couleur du texte */
+}
+
+
 /* Style du footer */
 footer {
     background-color: #213f77; /* Couleur de fond du footer */
