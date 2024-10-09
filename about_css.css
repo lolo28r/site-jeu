@@ -269,7 +269,7 @@ button:hover {
 .review-box p {
     font-size: 16px; /* Taille du texte */
     line-height: 1.4; /* Hauteur de ligne pour une meilleure lisibilité */
-    color: #333; /* Couleur du texte */
+    color: white; /* Couleur du texte */
 }
 
 
