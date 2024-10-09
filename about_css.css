@@ -130,6 +130,17 @@ main {
     text-align: center; /* Centre le texte */
 }
 
+/* Style pour encadrer le texte principal */
+main p {
+    background-color: #f4f4f9;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: inline-block;
+    margin: 20px auto;
+}
+
 /* Style des labels */
 label {
     display: block;
