@@ -262,6 +262,7 @@ button:hover {
     width: 60px; /* Taille de l'image */
     height: auto; /* Garde les proportions de l'image */
     margin-bottom: 10px; /* Espacement sous l'image */
+    border-radius: 25px;
 }
 
 /* Style pour le texte des avis */
