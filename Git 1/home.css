@@ -1,0 +1,131 @@
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+nav ul li {
+  margin: 0 10px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+nav a {
+  text-decoration: none;
+  background-color: #213f77;
+}
+
+nav a:hover {
+  background-color: #213f77;
+  color: #fff;
+}
+
+.banner {
+  background-color: #213f77;
+  background-size: cover;
+  background-position: center;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-align: center;
+}
+.banner h1 {
+  font-size: 3em;
+  margin: 0;
+}
+.banner .banner a {
+  color: white;
+  background: color #a62609;
+  padding: 10px;
+  border-radius: 10px;
+  text-decoration: none;
+}
+.banner .banner a:hover {
+  background-color: #a62609;
+}
+
+.content {
+  padding: 20px;
+  font-family: Montserrat, sans-serif;
+  font-size: 1.2em;
+}
+
+body {
+  font-family: Montserrat, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.best-sellers {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+}
+.best-sellers img {
+  width: 22%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border: 2px solid #ddd;
+  border-radius: 10px;
+  transition: transform 0.3s;
+}
+.best-sellers img:hover {
+  transform: scale(1.05);
+}
+
+.best-sellers-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.best-sellers-button a {
+  padding: 10px 20px;
+  font-size: 16px;
+  color: #fff;
+  background-color: #ff7a00;
+  text-decoration: none;
+  border-radius: 10px;
+  transition: background-color 0.3s;
+}
+.best-sellers-button a:hover {
+  background-color: #cc6200;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.left-image {
+  width: 40%;
+  height: auto;
+  border-radius: 10px;
+  margin-right: 20px;
+}
+
+.right-text {
+  width: 60%;
+}
+.right-text h2 {
+  margin-top: 0;
+}
+.right-text p {
+  line-height: 1.6;
+}
+
+footer {
+  background-color: #213f77;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  width: 100%;
+}/*# sourceMappingURL=home.css.map */
