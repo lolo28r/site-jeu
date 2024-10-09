@@ -8,32 +8,43 @@ body, html {
     flex-direction: column;
 }
 
+/* Style de la barre de navigation */
+.navbar {
+    background-color: #fefeff; 
+    padding: 15px 25px; /* Espacement autour de la barre */
+    font-family: 'Montserrat', sans-serif;
+    display: flex; /* Utilise Flexbox pour l'alignement */
+    align-items: center; /* Aligne verticalement */
+    justify-content: space-between; /* Espace entre le logo et les liens */
+}
+
 /* Style pour le logo */
 .navbar .logo img {
     width: 100px; 
     margin-right: 15px;
 }
 
-
-nav {
-    background-color: #fefeff; 
-    padding: 25px; 
-    font-family: 'Montserrat', sans-serif;
-    
+/* Style pour centrer les liens */
+.nav-links {
+    flex-grow: 1; /* Permet aux liens de prendre l'espace disponible */
+    display: flex; /* Utilise Flexbox pour l'alignement */
+    justify-content: center; /* Centre les éléments horizontalement */
 }
 
-nav ul {
+/* Style de la liste */
+.nav-links ul {
     list-style-type: none; 
     margin: 0;
     padding: 0;
-    display: flex;
-    justify-content: center; 
+    display: flex; /* Utilise Flexbox pour aligner horizontalement */
 }
 
-nav ul li {
-    margin: 0 10px; 
+/* Style des éléments de la liste */
+.nav-links ul li {
+    margin: 0 10px; /* Espacement entre les éléments */
 }
 
+/* Style des liens */
 nav a {
     color: #213f77; 
     text-decoration: none; 
@@ -41,20 +52,18 @@ nav a {
     font-size: 16px; 
     font-weight: 700;
     transition: background-color 0.3s ease, color 0.3s ease; 
-    border-radius: 20px;
-
+    border-radius: 20px; /* Coins arrondis */
 }
 
 nav a:hover {
-    background-color: #FF7a00;
+    background-color: #FF7a00; /* Couleur au survol */
     color: #ffffff; 
-    border-radius: 20px; }
+    border-radius: 20px; 
+}
 
-
-/* Style de l'image */
 .de-image {
-    width: 199px;
-    height: auto;
+    width: 199px; /* Ajustez la taille selon vos besoins */
+    height: auto; /* Garde les proportions de l'image */
     align-items: center;
 }
 
