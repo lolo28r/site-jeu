@@ -29,6 +29,12 @@ nav a {
 
 }
 
+/* Style pour le logo */
+.navbar .logo img {
+    width: 100px; 
+    margin-right: 15px;
+}
+
 nav a:hover {
     background-color: #FF7a00;
     color: #ffffff; 
