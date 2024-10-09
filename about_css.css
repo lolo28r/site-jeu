@@ -151,7 +151,7 @@ main p {
 /* Style pour les images de dés */
 .floating-dice {
     position: absolute;
-    width: 80px; /* Taille de l'image augmentée */
+    width: 70px; /* Taille de l'image augmentée */
     height: auto;
 }
 
