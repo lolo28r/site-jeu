@@ -147,3 +147,12 @@ width: 150px;
     height: 300px;
 
 }
+
+/* Style du footer */
+footer {
+    background-color: #213f77; /* Couleur de fond du footer */
+    color: white; /* Couleur du texte du footer */
+    text-align: center; /* Centrer le texte */
+    padding: 10px; /* Espacement interne du footer */
+    width: 100%; /* S'assurer que le footer prend toute la largeur */
+}
