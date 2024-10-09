@@ -158,7 +158,7 @@ main p {
 /* Dé à droite */
 .dice-right {
     top: -50px; /* Même niveau en haut */
-    right: -30px; /* Surplombe le bord droit */
+    right: -50px; /* Surplombe le bord droit */
 }
 
 /* Style des labels */
