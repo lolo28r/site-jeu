@@ -165,7 +165,7 @@ main p {
 /* Dé à gauche */
 .dice-left {
     top: 0; /* Position en haut */
-    left: -50px; /* En dehors du conteneur */
+    left: 50px; /* En dehors du conteneur */
 }
 
 /* Dé à droite */
