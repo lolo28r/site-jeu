@@ -155,7 +155,11 @@ main p {
     height: auto;
 }
 
-
+/* Dé à droite */
+.dice-right {
+    top: -30px; /* Même niveau en haut */
+    right: -30px; /* Surplombe le bord droit */
+}
 
 /* Style des labels */
 label {
