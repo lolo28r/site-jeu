@@ -1,32 +1,14 @@
-
-nav {
+body {
+    margin:0;
+}
+/* Style de la barre de navigation */
+.navbar {
     background-color: #fefeff; 
-    padding: 25px; 
+    padding: 15px 25px; /* Espacement autour de la barre */
     font-family: 'Montserrat', sans-serif;
-    
-}
-
-nav ul {
-    list-style-type: none; 
-    margin: 0;
-    padding: 0;
-    display: flex;
-    justify-content: center; 
-}
-
-nav ul li {
-    margin: 0 10px; 
-}
-
-nav a {
-    color: #213f77; 
-    text-decoration: none; 
-    padding: 8px 15px; 
-    font-size: 16px; 
-    font-weight: 700;
-    transition: background-color 0.3s ease, color 0.3s ease; 
-    border-radius: 20px;
-
+    display: flex; /* Utilise Flexbox pour l'alignement */
+    align-items: center; /* Aligne verticalement */
+    justify-content: space-between; /* Espace entre le logo et les liens */
 }
 
 /* Style pour le logo */
@@ -35,12 +17,48 @@ nav a {
     margin-right: 15px;
 }
 
+/* Style pour centrer les liens */
+.nav-links {
+    flex-grow: 1; /* Permet aux liens de prendre l'espace disponible */
+    display: flex; /* Utilise Flexbox pour l'alignement */
+    justify-content: center; /* Centre les éléments horizontalement */
+}
+
+/* Style de la liste */
+.nav-links ul {
+    list-style-type: none; 
+    margin: 0;
+    padding: 0;
+    display: flex; /* Utilise Flexbox pour aligner horizontalement */
+}
+
+/* Style des éléments de la liste */
+.nav-links ul li {
+    margin: 0 10px; /* Espacement entre les éléments */
+}
+
+/* Style des liens */
+nav a {
+    color: #213f77; 
+    text-decoration: none; 
+    padding: 8px 15px; 
+    font-size: 16px; 
+    font-weight: 700;
+    transition: background-color 0.3s ease, color 0.3s ease; 
+    border-radius: 20px; /* Coins arrondis */
+}
+
 nav a:hover {
-    background-color: #FF7a00;
+    background-color: #FF7a00; /* Couleur au survol */
     color: #ffffff; 
-    border-radius: 20px; }
+    border-radius: 20px; 
+}
 
-
+.de-image {
+    width: 199px; /* Ajustez la taille selon vos besoins */
+    height: auto; /* Garde les proportions de l'image */
+    align-items: center;
+}
   /* Styles pour l'en-tête de section */
 .en-tete {
    margin-top: 50px;
