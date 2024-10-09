@@ -130,48 +130,41 @@ main {
     text-align: center; /* Centre le texte */
 }
 
+/* Conteneur du texte et des images */
 .text-container {
     position: relative; /* Permet de positionner les images par rapport au conteneur */
     display: inline-block; /* Adapte la taille au contenu */
+    margin: 30px 0; /* Ajoute un peu d'espace autour du conteneur */
 }
 
-/* Style pour encadrer le texte principal */
-/*main p {
-    background-color: #f4f4f9;
-    padding: 20px;
-    border: 1px solid #ddd;
-    border-radius: 15px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    display: inline-block;
-    margin: 20px auto;
-}*/
-
+/* Style du texte */
 main p {
     background-color: #f4f4f9; /* Couleur de fond */
     padding: 40px;
     border: 1px solid #ddd;
     border-radius: 15px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    margin: 0; /* Supprime le marge interne */
+    margin: 0; /* Supprime la marge interne */
+    position: relative; /* Permet de placer les images par-dessus */
 }
 
 /* Style pour les images de dés */
 .floating-dice {
     position: absolute;
-    width: 40px; /* Taille de l'image */
+    width: 60px; /* Taille de l'image augmentée */
     height: auto;
 }
 
 /* Dé à gauche */
 .dice-left {
-    top: 0; /* Position en haut */
-    left: 50px; /* En dehors du conteneur */
+    top: -30px; /* Légèrement au-dessus du texte */
+    left: -30px; /* Surplombe le bord gauche */
 }
 
 /* Dé à droite */
 .dice-right {
-    top: 0;
-    right: -50px; /* En dehors du conteneur */
+    top: -30px; /* Même niveau en haut */
+    right: -30px; /* Surplombe le bord droit */
 }
 
 /* Style des labels */
