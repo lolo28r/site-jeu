@@ -169,11 +169,58 @@ width: 150px;
 
 }
 
-/* Style du footer */
+/* Style du footer 
 footer {
     background-color: #213f77; 
     color: white; 
     text-align: center;
     padding: 10px;
     width: 100%;
+}*/
+
+footer {
+    background-color: #213f77;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
 }
+
+.footer-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.footer-links a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+    transition: color 0.3s;
+}
+
+.footer-links a:hover {
+    color: #ff7a00;
+}
+
+.social-media a {
+    margin: 0 5px;
+}
+
+.social-media img {
+    width: 30px;
+    height: 30px;
+    transition: transform 0.3s;
+}
+
+.social-media img:hover {
+    transform: scale(1.2);
+}
+
+.footer-bottom {
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+    padding-top: 10px;
+    font-size: 14px;
+}
+
