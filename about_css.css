@@ -211,7 +211,7 @@ button:hover {
     width: 100px;
     height: 100px;
     border-radius: 50%;
-    background: #3498db;
+    background:#FF7a00 ;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -247,7 +247,7 @@ button:hover {
 
 /* Style pour chaque rectangle d'avis */
 .review-box {
-    background-color: rgba(255, 122, 0, 0.7); /* Couleur de fond du rectangle avec transparence */
+    background-color:#1a3161; /* Couleur de fond du rectangle avec transparence */
     border-radius: 10px; /* Coins arrondis */
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Ombre pour le rectangle */
     padding: 20px; /* Espacement interne */
